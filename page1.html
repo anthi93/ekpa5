@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<title>Exams 4</title>
+    </head>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 250px;
+            background-color: pink;
+            border: 2px solid blue;
+        }
+    
+        li a{
+            display: block;
+            color: burlywood;
+            padding: 14px 15px;
+            text-decoration: none;
+        
+        }
+    
+        li {
+            text-align: center;
+            border-bottom: 1px solid violet;
+    
+        }
+    
+        li:last-child{
+            border-bottom: none;
+        }
+    
+       
+    
+        li a.active{
+            background-color: grey;
+            color: ivory;
+    
+        }
+    
+        li a:hover:not(.active){
+          background-color: grey;
+          color: honeydew;
+    
+        }
+    </style>
+    <body>
+
+
+
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="page1.html">page1</a></li>
+            </ul>
+  
+            
+
+
+<h2>Δεύτερο ερώτημα</h2>
+<h4>charAt και charCodeAt</h4>
+<pre>
+<script>
+document.writeln("I like JavaScript");
+var y="I like JavaScript"
+var z=y.charAt(4);
+var x=y.charCodeAt(4);
+document.writeln("Ο χαρακτήρας που απoκόπηκε είναι ο χαρακτήρας "+z+" και ο κωδικός του χαρακτήρα είναι "+x);
+console.log("Ο χαρακτήρας που απoκόπηκε είναι ο χαρακτήρας "+z+" και ο κωδικός του χαρακτήρα είναι "+x);
+
+
+</script>
+</pre>
+
+
+<pre>
+<script>
+document.writeln("I love JavaScript");
+
+var y="I love JavaScript";
+var z=y.substring(2,7);
+document.writeln("Το string που αποκόπηκε είναι το "+z );
+console.log("Το string που αποκόπηκε είναι το "+z );
+
+
+</script>
+</pre>
+
+        </body>
+        
+        
+        
+        
+        </html>
